@@ -17,9 +17,10 @@ export default function FirstPost() {
         />
       </Head>
       <h1>First Post</h1>
-      <h2>
+      {/* <h2>
         <Link href="/">back to home</Link>
-      </h2>
+      </h2> */}
+      {/* back to home link placed via layout.js logic  */}
     </Layout>
   );
 }

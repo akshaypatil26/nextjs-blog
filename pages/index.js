@@ -16,7 +16,7 @@ export default function Home() {
           from Coursera and diving deep into React JS.{" "}
         </p>
         <p>
-          (This is a sample website I am trying to buid with {" "}
+          (This is a sample website I am trying to build with {" "}
           <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
         </p>
       </section>

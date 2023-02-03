@@ -27,7 +27,7 @@ export default function Layout({ children, home, about }) {
       </Head>
 
       {!about && (
-        <div className={styles.backToHome}>
+        <div className={styles.about}>
           <Link href="/about">About</Link>
         </div>
       )}

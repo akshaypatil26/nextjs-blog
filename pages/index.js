@@ -23,14 +23,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          I'm <b>Akshay Patil</b>. I am UX designer and Front-end engineer.
+          I'm <b>Akshay Patil</b>. I am a UX designer and Front-end engineer.
           <br />
           I'm currently taking Google UX Design Professional Certificate Course
           from Coursera and diving deep into React JS.{" "}
-        </p>
-        <p>
-          (This is a sample website I am trying to build with{" "}
-          <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
         </p>
       </section>
 

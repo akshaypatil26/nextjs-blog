@@ -7,7 +7,7 @@ import Link from "next/link";
 const name = "Akshay S. Patil";
 export const siteTitle = "Akshay S. Patil";
 
-export default function Layout({ children, home, about }) {
+export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,12 +25,6 @@ export default function Layout({ children, home, about }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-
-      {!about && (
-        <div className={styles.about}>
-          <Link href="/about">About</Link>
-        </div>
-      )}
 
       <header className={styles.header}>
         {home ? (

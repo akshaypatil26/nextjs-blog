@@ -18,8 +18,11 @@ export default function home() {
         </p>
       </section>
 
-      <section>
-        <p>Social links</p>
+      <section className="sociallinks">
+        <a href="/">Github</a>
+        <a href="/">Linkedin</a>
+        <a href="/">Twitter</a>
+        <a href="/">Instagram</a>
       </section>
     </Layout>
   );

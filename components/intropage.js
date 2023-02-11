@@ -4,7 +4,10 @@ export default function Intropage() {
   return (
     <>
       <section className={utilStyles.headingMd}>
-        <p>UX Designer, Full Stack developer</p>
+        <div className="introheader">
+          <h2>Akshay S. Patil</h2>
+          <p>UX Designer, Full Stack developer</p>
+        </div>
         <p>
           I'm <b>Akshay</b>. I am a UX designer and Front-end engineer.
           <br />

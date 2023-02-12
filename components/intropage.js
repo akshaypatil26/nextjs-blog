@@ -17,10 +17,10 @@ export default function Intropage() {
       </section>
 
       <section className="sociallinks">
-        <a href="/">Github</a>
-        <a href="/">Linkedin</a>
-        <a href="/">Twitter</a>
-        <a href="/">Instagram</a>
+        <a target="_blank" href="https://github.com/akshaypatil26">Github</a>
+        <a target="_blank" href="https://www.linkedin.com/in/akshaysanjaypatil/">Linkedin</a>
+        <a target="_blank" href="https://twitter.com/foodjunkieguy">Twitter</a>
+        <a target="_blank" href="https://www.instagram.com/foodjunkieguy/">Instagram</a>
       </section>
     </>
   );

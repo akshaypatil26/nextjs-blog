@@ -1,0 +1,20 @@
+.navbar li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.navbar * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.partition {
+  color: grey;
+  opacity: 5%;
+}

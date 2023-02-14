@@ -1,20 +1,26 @@
-.navbar li {
-  list-style: none;
-  padding: 0px 40px;
-}
-
-.navbar * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   justify-content: flex-end;
 }
 
+.navbar li {
+  list-style: none;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
 .partition {
   color: grey;
   opacity: 5%;
+  margin: 0rem;
+}
+
+.navcontainer {
+  max-width: 36rem;
+  padding: 0rem 0rem;
+  margin: 0rem auto 0rem;
+  /* background-color: rgba(222, 217, 217, 0.15); */
+}
+
+.navbar .hidden {
+  display: hidden;
 }

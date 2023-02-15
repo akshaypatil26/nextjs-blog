@@ -1,3 +1,10 @@
+.navcontainer {
+  max-width: 36rem;
+  padding: 0rem 0rem;
+  margin: 0.5rem auto
+  /* background-color: rgba(222, 217, 217, 0.15); */
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -5,22 +12,15 @@
 
 .navbar li {
   list-style: none;
-  padding: 0rem 0rem 0rem 2rem;
+  padding: 0rem 0.5rem 0rem 2rem;
+}
+
+.navbar .hidden {
+  display: hidden;
 }
 
 .partition {
   color: grey;
   opacity: 5%;
   margin: 0rem;
-}
-
-.navcontainer {
-  max-width: 36rem;
-  padding: 0rem 0rem;
-  margin: 0rem auto 0rem;
-  /* background-color: rgba(222, 217, 217, 0.15); */
-}
-
-.navbar .hidden {
-  display: hidden;
 }

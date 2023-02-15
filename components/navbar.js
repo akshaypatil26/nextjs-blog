@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className={styles.navbar}>
           {/* <h3>Navbar</h3> */}
           <li>
-            <a href="/newhome">Log</a>
+            <a href="/">Log</a>
           </li>
           <li>
             <a href="/newhome">Contact</a>
@@ -19,7 +19,7 @@ export default function Navbar() {
             </button> */}
         </div>
       </div>
-      <hr className={styles.partition}></hr>
+      {/* <hr className={styles.partition}></hr> */}
     </>
   );
 }

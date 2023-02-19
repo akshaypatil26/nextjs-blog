@@ -5,7 +5,6 @@ import utilStyles from "../styles/utils.module.css";
 import Date from "../components/date";
 
 import { getSortedPostsData } from "../lib/posts";
-import Navbar from "../components/navbar";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -19,7 +18,6 @@ export async function getStaticProps() {
 export default function logs({ allPostsData }) {
   return (
     <>
-      <Navbar />
       <div className="mycontainer">
         <Head>
           <title>{siteTitle}</title>

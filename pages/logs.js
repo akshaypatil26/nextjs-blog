@@ -26,6 +26,15 @@ export default function logs({ allPostsData }) {
         {/* Add this <section> tag below the existing <section> tag */}
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Logs</h2>
+          <p>
+            Below is a list of logs I maintain regularly of what I am currently
+            working on (UX design and full stack development). These are longer
+            than a tweet but brief compared to a blog post. <br />
+            The idea of these is to maintain consistency in building and
+            learning new things, while keeping a progress record to look back
+            upon.
+          </p>
+          <br />
           <ul className={utilStyles.list}>
             {allPostsData.map(({ id, date, title }) => (
               <li className={utilStyles.listItem} key={id}>

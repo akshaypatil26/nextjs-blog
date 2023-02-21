@@ -9,9 +9,6 @@ export default function Navbar() {
             <a href="/logs">Logs</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
             <a href="/about">About</a>
           </li>
           {/* <button className={styles.hidden}>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contact from "../components/contact";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
@@ -8,6 +9,7 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Contact />
       <section className={utilStyles.headingMd}>
         <h3>About this website:</h3>
         <p>

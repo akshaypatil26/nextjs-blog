@@ -5,18 +5,22 @@ export default function Navbar() {
       <div className={styles.navcontainer}>
         <div className={styles.navbar}>
           {/* <h3>Navbar</h3> */}
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/logs">Logs</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          {/* <button className={styles.hidden}>
+          <ul className={styles.navleft}>
+            <li>
+              <a href="/">Home</a>
+            </li>
+          </ul>
+          <ul className={styles.navright}>
+            <li>
+              <a href="/logs">Logs</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            {/* <button className={styles.hidden}>
               <p>Hamburger menu</p>
             </button> */}
+          </ul>
         </div>
       </div>
       {/* <hr className={styles.partition}></hr> */}

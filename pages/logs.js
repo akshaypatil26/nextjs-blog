@@ -18,7 +18,8 @@ export async function getStaticProps() {
 export default function logs({ allPostsData }) {
   return (
     <Layout>
-      <div className="mycontainer">
+      {/* <div className="mycontainer"> */}
+      <section>
         <Head>
           <title>{siteTitle}</title>
         </Head>
@@ -47,7 +48,8 @@ export default function logs({ allPostsData }) {
             ))}
           </ul>
         </section>
-      </div>
+        {/* </div> */}
+      </section>
     </Layout>
   );
 }

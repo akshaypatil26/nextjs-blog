@@ -6,7 +6,7 @@ import utilStyles from "../styles/utils.module.css";
 
 export default function About() {
   return (
-    <Layout about>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>

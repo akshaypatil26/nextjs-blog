@@ -28,12 +28,11 @@ export default function logs({ allPostsData }) {
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Logs</h2>
           <p>
-            Below is a list of logs I maintain regularly of what I am currently
-            working on (UX design and full stack development). These are longer
-            than a tweet but brief compared to a blog post. <br />
-            The idea of these is to maintain consistency in building and
-            learning new things, while keeping a progress record to look back
-            upon.
+            Below is a list of logs that I maintain about my current work in UX
+            design and full stack development. These logs are longer than a
+            tweet but briefer than a blog post. The purpose of these logs is to
+            maintain consistency in building and learning new things, while
+            keeping a record of my progress to look back on later.
           </p>
           <br />
           <ul className={utilStyles.list}>

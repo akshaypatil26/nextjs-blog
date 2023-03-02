@@ -9,18 +9,37 @@ export default function Intropage() {
           <p>UX Designer, Full Stack developer</p>
         </div>
         <p>
-          I'm <b>Akshay</b>. I am a UX designer and Front-end engineer.
+          My name is Akshay Patil, and I am a UX designer and front-end
+          engineer. I graduated from the New Jersey Institute of Technology with
+          an M.S. in Computer Science. Since then, I have been working as a
+          full-stack developer, using multiple web and mobile technologies.
           <br />
-          I'm currently taking Google UX Design Professional Certificate Course
-          from Coursera and diving deep into React JS.{" "}
+          <br />
+          Currently, I am enrolled in Google's UX Design Professional
+          Certificate Course on Coursera, while also expanding my knowledge in
+          React JS. <br />
+          <br />
+          My passion lies in creating unique and accessible digital experiences
+          for end users.
         </p>
       </section>
 
       <section className="sociallinks">
-        <a target="_blank" href="https://github.com/akshaypatil26">Github</a>
-        <a target="_blank" href="https://www.linkedin.com/in/akshaysanjaypatil/">Linkedin</a>
-        <a target="_blank" href="https://twitter.com/foodjunkieguy">Twitter</a>
-        <a target="_blank" href="https://www.instagram.com/foodjunkieguy/">Instagram</a>
+        <a target="_blank" href="https://github.com/akshaypatil26">
+          Github
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/akshaysanjaypatil/"
+        >
+          Linkedin
+        </a>
+        <a target="_blank" href="https://twitter.com/foodjunkieguy">
+          Twitter
+        </a>
+        <a target="_blank" href="https://www.instagram.com/foodjunkieguy/">
+          Instagram
+        </a>
       </section>
     </>
   );

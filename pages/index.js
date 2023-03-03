@@ -37,40 +37,6 @@ export default function Home({ allPostsData }) {
       </div>
 
       <Intropage />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <section className={utilStyles.headingMd}>
-        <p>
-          My name is Akshay Patil, and I am a UX designer and front-end
-          engineer. I graduated from the New Jersey Institute of Technology with
-          an M.S. in Computer Science. Since then, I have been working as a
-          full-stack developer, using multiple web and mobile technologies.
-          Currently, I am enrolled in Google's UX Design Professional
-          Certificate Course on Coursera, while also expanding my knowledge in
-          React JS. My passion lies in creating unique and accessible digital
-          experiences for end users.
-        </p>
-      </section>
-      {/* Add this <section> tag below the existing <section> tag */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
     </div>
   );
 }

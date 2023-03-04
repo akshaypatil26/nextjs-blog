@@ -1,11 +1,11 @@
-import utilStyles from "../styles/utils.module.css";
+import styles from "./intropage.module.css";
 
 export default function Intropage() {
   return (
     <>
-      <section className={utilStyles.headingMd}>
+      <section>
         <div className="introheader">
-          <h2>Akshay S. Patil</h2>
+          <h2 className={styles.heading}>Akshay S. Patil</h2>
           <p>UX Designer, Full Stack developer</p>
         </div>
         <p>

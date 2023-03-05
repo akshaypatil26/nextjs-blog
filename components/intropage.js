@@ -4,8 +4,8 @@ export default function Intropage() {
   return (
     <>
       <section>
-        <div className="introheader">
-          <h2 className={styles.heading}>Akshay S. Patil</h2>
+        <div>
+          {/* <h2 className={styles.heading}>Akshay S. Patil</h2> */}
           <p>UX Designer, Full Stack developer</p>
         </div>
         <p>

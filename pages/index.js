@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className="displaypicture">
+      <div>
         <Image
           priority
           src="/images/profile.jpg"

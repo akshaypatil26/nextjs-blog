@@ -15,7 +15,7 @@ export default function Navbar() {
               <a href="/logs">Logs</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/socials">Socials</a>
             </li>
             {/* <button className={styles.hidden}>
               <p>Hamburger menu</p>

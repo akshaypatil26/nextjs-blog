@@ -4,7 +4,7 @@ import Aboutcomponent from "../components/aboutcomponent";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
-export default function About() {
+export default function Socials() {
   return (
     <Layout>
       <Head>

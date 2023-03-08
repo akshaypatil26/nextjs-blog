@@ -14,9 +14,9 @@ export default function Navbar() {
             <li>
               <a href="/logs">Logs</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/socials">Socials</a>
-            </li>
+            </li> */}
             {/* <button className={styles.hidden}>
               <p>Hamburger menu</p>
             </button> */}

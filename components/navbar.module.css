@@ -1,46 +1,13 @@
-.navcontainer {
+.navbar{
   max-width: 36rem;
-  padding: 0rem 0rem;
+  padding: 1rem 0rem;
   margin: auto;
-  /* background-color: rgba(222, 217, 217, 0.15); */
-}
-
-/* .navbar {
-  display: flex;
-  justify-content: flex-end;
-} */
-
-/* .navbar li {
   list-style: none;
-  padding: 0rem 0.5rem 0rem 2rem;
-} */
-.navleft {
-  float: left;
-  /* background-color: lemonchiffon; */
-}
-
-.navright {
-  float: right;
-  /* background-color: rosybrown; */
-}
-
-.navbar ul {
-  padding-left: 0rem;
+  /* background-color: antiquewhite; */
 }
 
 .navbar li {
   display: inline;
   margin: 0rem 1rem;
   list-style: none;
-  /* float: right; */
-}
-
-.navbar .hidden {
-  display: hidden;
-}
-
-.partition {
-  color: grey;
-  opacity: 5%;
-  margin: 0rem;
 }

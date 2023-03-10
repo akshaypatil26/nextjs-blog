@@ -9,9 +9,9 @@ export default function Navbar() {
         <li>
           <a href="/logs">Logs</a>
         </li>
-        <li>
+        {/* <li>
           <a href="/socials">Socials</a>
-        </li>
+        </li> */}
       </div>
     </>
   );

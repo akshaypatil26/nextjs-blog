@@ -4,10 +4,9 @@ export default function Intropage() {
   return (
     <>
       <section>
-        <div>
-          {/* <h2 className={styles.heading}>Akshay S. Patil</h2> */}
+        {/* <div>
           <p>UX Designer, Full Stack developer</p>
-        </div>
+        </div> */}
         <p>
           My name is Akshay Patil, and I am a UX designer and front-end
           engineer. I graduated from the New Jersey Institute of Technology with
@@ -22,8 +21,8 @@ export default function Intropage() {
           My passion lies in creating unique and accessible digital experiences
           for end users.
         </p>
+        <br></br>
       </section>
-
       <section className="sociallinks">
         <a target="_blank" href="https://github.com/akshaypatil26">
           Github
@@ -41,6 +40,7 @@ export default function Intropage() {
           Instagram
         </a>
       </section>
+      <br></br> <br></br>
     </>
   );
 }

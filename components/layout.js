@@ -39,6 +39,9 @@ export default function Layout({ children, home }) {
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h3 className={utilStyles.headingMd}>
+              UX Designer, Full Stack developer
+            </h3>
           </>
         ) : (
           <></>

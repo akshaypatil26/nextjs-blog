@@ -8,7 +8,7 @@ export default function Intropage() {
           <p>UX Designer, Full Stack developer</p>
         </div> */}
         <p>
-          My name is Akshay Patil, and I am a UX designer and front-end
+          My name is Akshay, and I am a UX designer and front-end
           engineer. I graduated from the New Jersey Institute of Technology with
           an M.S. in Computer Science. Since then, I have been working as a
           full-stack developer, using multiple web and mobile technologies.

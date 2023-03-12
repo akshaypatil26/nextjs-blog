@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const name = "Akshay S. Patil";
 export const siteTitle = "Akshay S. Patil";
+// const subheadingcn = "utilStyles.headingMd";
 
 export default function Layout({ children, home }) {
   return (

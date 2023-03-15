@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
             <section className={utilStyles.headingMd}>
               {/* UX Designer, Full Stack developer */}
-              <h4 className="subheading"> UX Designer, Front End Engineer</h4>
+              <h4 className="font-bold text-slate-500"> UX Designer, Front End Engineer</h4>
             </section>
           </>
         ) : (

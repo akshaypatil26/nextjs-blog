@@ -22,7 +22,7 @@ export default function Intropage() {
           for end users.
         </p>
       </section>
-      <section className="sociallinks my-6">
+      <section className="sociallinks my-7">
         <a target="_blank" href="https://github.com/akshaypatil26">
           Github
         </a>

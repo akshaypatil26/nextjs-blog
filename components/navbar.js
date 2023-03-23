@@ -2,7 +2,7 @@ import styles from "./navbar.module.css";
 export default function Navbar() {
   return (
     <>
-      <nav className={styles.navbar}>
+      <div className={styles.navbar}>
         {[
           ["Home", "/"],
           ["Logs", "/logs"],
@@ -16,7 +16,7 @@ export default function Navbar() {
             {title}
           </a>
         ))}
-      </nav>
+      </div>
 
       {/* <div className={styles.navbar}>
         <li>

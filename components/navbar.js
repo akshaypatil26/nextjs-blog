@@ -9,10 +9,7 @@ export default function Navbar() {
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],
         ].map(([title, url]) => (
-          <a
-            href={url}
-            className="px-3 hover:text-slate-400"
-          >
+          <a key={title} href={url} className="px-3 hover:text-slate-400">
             {title}
           </a>
         ))}

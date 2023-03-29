@@ -7,7 +7,7 @@ export default function Intropage() {
         {/* <div>
           <p>UX Designer, Full Stack developer</p>
         </div> */}
-        <p>
+        <p className="text-justify">
           My name is Akshay, and I am a UX designer and front-end engineer. I
           graduated from the New Jersey Institute of Technology with an M.S. in
           Computer Science. Since then, I have been working as a full-stack
@@ -38,6 +38,7 @@ export default function Intropage() {
         <a target="_blank" href="https://www.instagram.com/foodjunkieguy/">
           Instagram
         </a>
+        <a href="mailto:akshaypatil26@duck.com">Email</a>
       </section>
     </>
   );

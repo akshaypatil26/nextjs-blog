@@ -27,7 +27,7 @@ export default function logs({ allPostsData }) {
         {/* Add this <section> tag below the existing <section> tag */}
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Logs</h2>
-          <p>
+          <p className="text-justify">
             Below is a list of logs that I maintain about my current work in UX
             design and full stack development. These logs are longer than a
             tweet but briefer than a blog post. The purpose of these logs is to

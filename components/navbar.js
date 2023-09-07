@@ -5,7 +5,8 @@ export default function Navbar() {
       <div className={styles.navbar}>
         {[
           ["Home", "/"],
-          ["Logs", "/logs"],
+          ["UX Portfolio", "/uxportfolio"],
+          // ["Logs", "/logs"],
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],
         ].map(([title, url]) => (

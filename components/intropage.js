@@ -27,18 +27,18 @@ export default function Intropage() {
         {[
           ["Github", "https://github.com/akshaypatil26"],
           ["LinkedIn", "https://www.linkedin.com/in/akshaysanjaypatil/"],
-          ["Twitter","https://twitter.com/foodjunkieguy"],
-          ["Instagram","https://www.instagram.com/foodjunkieguy/"],
-          ["Email","mailto:akshaypatil26@duck.com"]
+          ["Twitter", "https://twitter.com/foodjunkieguy"],
+          ["Instagram", "https://www.instagram.com/foodjunkieguy/"],
+          ["Email", "mailto:akshaypatil26@duck.com"],
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],
         ].map(([title, url]) => (
-          <a targer="_blank" key={title} href={url} className="mx-5">
-            {title}
+          <a targer="_blank" key={title} href={url} className="mx-1">
+            {title} <br />
           </a>
         ))}
       </section>
-{/* 
+      {/* 
       <section className="sociallinks my-7">
         <a target="_blank" href="https://github.com/akshaypatil26">
           Github

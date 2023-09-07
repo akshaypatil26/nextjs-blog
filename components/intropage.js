@@ -38,7 +38,7 @@ export default function Intropage() {
           </a>
         ))}
       </section>
-
+{/* 
       <section className="sociallinks my-7">
         <a target="_blank" href="https://github.com/akshaypatil26">
           Github
@@ -56,7 +56,7 @@ export default function Intropage() {
           Instagram
         </a>
         <a href="mailto:akshaypatil26@duck.com">Email</a>
-      </section>
+      </section> */}
     </>
   );
 }

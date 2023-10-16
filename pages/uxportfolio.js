@@ -25,6 +25,14 @@ export default function Socials() {
           Digital Menu for Takeout Restaurant
         </a>
       </p>
+      <hr></hr>
+      <p className="my-3">
+        {" "}
+        Project 3:{" "}
+        <a href="https://docs.google.com/presentation/d/1jun99PQj6IBtmOxEVXezb8-NoQkLnj5Of5DU094z-Gw/edit?usp=sharing">
+          Job Portal for First-gen Immigrants
+        </a>
+      </p>
       <br></br>
     </Layout>
   );

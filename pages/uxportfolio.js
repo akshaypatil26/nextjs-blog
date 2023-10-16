@@ -16,7 +16,7 @@ export default function Socials() {
         {" "}
         {/* <img src={ require('../public/projects/testone.jpg') } /> */}
         Project 1:{" "}
-        <a href="https://docs.google.com/presentation/d/1s1mKeRNtsbJiCWikgs-I6yXGylX2RYeIFDfSibW3rjA/edit?usp=sharing">
+        <a target='_blank' href="https://docs.google.com/presentation/d/1s1mKeRNtsbJiCWikgs-I6yXGylX2RYeIFDfSibW3rjA/edit?usp=sharing">
           Mobile Ticketing App for Movie Theatre
           <Image
             priority
@@ -33,7 +33,7 @@ export default function Socials() {
 
       <p className="my-3">
         Project 2:{" "}
-        <a href="https://docs.google.com/presentation/d/1nB9jlYDm6LmH4Xsc_iD4oBFIh5rPa4G31hjWDkptNg8/edit?usp=sharing">
+        <a target='_blank' href="https://docs.google.com/presentation/d/1nB9jlYDm6LmH4Xsc_iD4oBFIh5rPa4G31hjWDkptNg8/edit?usp=sharing">
           Digital Menu for Takeout Restaurant
           <Image
             priority
@@ -50,7 +50,7 @@ export default function Socials() {
 
       <p className="my-3">
         Project 3:{" "}
-        <a href="https://docs.google.com/presentation/d/1jun99PQj6IBtmOxEVXezb8-NoQkLnj5Of5DU094z-Gw/edit?usp=sharing">
+        <a target='_blank'  href="https://docs.google.com/presentation/d/1jun99PQj6IBtmOxEVXezb8-NoQkLnj5Of5DU094z-Gw/edit?usp=sharing">
           Job Portal for First-gen Immigrants
           <Image
             priority

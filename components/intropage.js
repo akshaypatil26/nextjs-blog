@@ -25,6 +25,18 @@ export default function Intropage() {
 
       <section className="sociallinks my-7">
         {[
+          [
+            "View Resume",
+            "https://drive.google.com/file/d/1HSeL-UOlXyU0LlAJNdWnQvY15DukeRSg/view?usp=sharing",
+          ], ["View UX Portfolio", "/uxportfolio"],
+        ].map(([title, url]) => (
+          <a targer="_blank" key={title} href={url} className="mx-1">
+            {title} <br />
+          </a>
+        ))}
+      </section>
+      <section className="sociallinks my-7">
+        {[
           ["Github", "https://github.com/akshaypatil26"],
           ["LinkedIn", "https://www.linkedin.com/in/akshaysanjaypatil/"],
           ["Twitter", "https://twitter.com/foodjunkieguy"],

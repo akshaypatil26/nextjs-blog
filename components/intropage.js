@@ -11,26 +11,35 @@ export default function Intropage() {
           My name is Akshay, and I am a UX designer and front-end engineer. I
           graduated from the New Jersey Institute of Technology with an M.S. in
           Computer Science. Since then, I have been working as a full-stack
-          developer, using multiple web and mobile technologies.
+          developer, leveraging a range of web and mobile technologies..
           <br />
+          <br />I successfully earned{" "}
+          <a target="_blank" href="https://coursera.org/verify/professional-cert/SV5N2C528EFJ">
+            Google's UX Design Professional Certification
+          </a>{" "}
+          on Coursera, showcasing my acquired skills and insights in my UX
+          portfolio. Concurrently, I've been deepening my expertise in React JS,
+          recognizing its pivotal role in crafting dynamic and responsive user
+          interfaces. <br />
           <br />
-          Currently, I am enrolled in Google's UX Design Professional
-          Certificate Course on Coursera, while also expanding my knowledge in
-          React JS. <br />
-          <br />
-          My passion lies in creating unique and accessible digital experiences
-          for end users.
+          At the heart of my professional journey is a fervent commitment to
+          fashioning unique and inclusive digital experiences for end users.
         </p>
       </section>
 
-      <section className="sociallinks my-7">
+      <section className="actionlinks my-7">
         {[
+           [
+            "Behance Profile",
+            "https://www.behance.net/patilakshay",
+          ],
+          ["View UX Portfolio", "/uxportfolio"],
           [
             "View Resume",
             "https://drive.google.com/file/d/1HSeL-UOlXyU0LlAJNdWnQvY15DukeRSg/view?usp=sharing",
-          ], ["View UX Portfolio", "/uxportfolio"],
+          ],
         ].map(([title, url]) => (
-          <a targer="_blank" key={title} href={url} className="mx-1">
+          <a target="_blank" key={title} href={url} className="mx-1">
             {title} <br />
           </a>
         ))}
@@ -45,7 +54,7 @@ export default function Intropage() {
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],
         ].map(([title, url]) => (
-          <a targer="_blank" key={title} href={url} className="mx-1">
+          <a target="_blank" key={title} href={url} className="mx-1">
             {title} <br />
           </a>
         ))}

@@ -31,7 +31,14 @@ img {
   display: block;
 }
 
+.actionlinks {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .sociallinks {
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-around;
 }

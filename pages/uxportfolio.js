@@ -25,7 +25,6 @@ export default function Socials() {
             height={300}
             width={500}
             alt=""
-            hover={true}
           />
         </a>
       </p>

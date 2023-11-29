@@ -20,11 +20,12 @@ export default function Socials() {
           Mobile Ticketing App for Movie Theatre
           <Image
             priority
-            src="/projects/projectone.png"
+            src="/projects/Mobile ticketing app thumbnail.png"
             // className={utilStyles.borderCircle}
             height={300}
-            width={300}
+            width={500}
             alt=""
+            hover={true}
           />
         </a>
       </p>
@@ -37,10 +38,10 @@ export default function Socials() {
           Digital Menu for Takeout Restaurant
           <Image
             priority
-            src="/projects/projecttwo.png"
+            src="/projects/digital menu thumbnail.png"
             // className={utilStyles.borderCircle}
             height={300}
-            width={300}
+            width={500}
             alt=""
           />
         </a>
@@ -54,10 +55,10 @@ export default function Socials() {
           Job Portal for First-gen Immigrants
           <Image
             priority
-            src="/projects/projectthree.png"
+            src="/projects/job search tool thumbnail.png"
             // className={utilStyles.borderCircle}
             height={300}
-            width={300}
+            width={500}
             alt=""
           />
         </a>

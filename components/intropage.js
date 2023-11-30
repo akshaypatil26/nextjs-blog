@@ -11,7 +11,7 @@ export default function Intropage() {
           My name is Akshay, and I am a UX designer and front-end engineer. I
           graduated from the New Jersey Institute of Technology with an M.S. in
           Computer Science. Since then, I have been working as a full-stack
-          developer, leveraging a range of web and mobile technologies..
+          developer, leveraging a range of web and mobile technologies.
           <br />
           <br />I successfully earned{" "}
           <a
@@ -20,7 +20,7 @@ export default function Intropage() {
           >
             Google's UX Design Professional Certification
           </a>{" "}
-          on Coursera, showcasing my acquired skills and insights in my UX
+          on Coursera, while showcasing my acquired skills and insights in my UX
           portfolio. Concurrently, I've been deepening my expertise in React JS,
           recognizing its pivotal role in crafting dynamic and responsive user
           interfaces. <br />

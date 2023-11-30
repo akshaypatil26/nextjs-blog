@@ -16,8 +16,8 @@ export default function Socials() {
         {" "}
         {/* <img src={ require('../public/projects/testone.jpg') } /> */}
         Project 1:{" "}
-        <a target='_blank' href="https://docs.google.com/presentation/d/1s1mKeRNtsbJiCWikgs-I6yXGylX2RYeIFDfSibW3rjA/edit?usp=sharing">
-          Mobile Ticketing App for Movie Theatre
+        <a target="_blank" href="/projects/case-studies/mobile-ticketing.pdf">
+          Mobile Ticketing App for Movie Theatre [PDF]
           <Image
             priority
             src="/projects/Mobile ticketing app thumbnail.png"
@@ -33,8 +33,9 @@ export default function Socials() {
 
       <p className="my-3">
         Project 2:{" "}
-        <a target='_blank' href="https://docs.google.com/presentation/d/1nB9jlYDm6LmH4Xsc_iD4oBFIh5rPa4G31hjWDkptNg8/edit?usp=sharing">
-          Digital Menu for Takeout Restaurant
+        <a target="_blank" href="/projects/case-studies/digital-menu.pdf">
+          {/* <a target='_blank' href="https://docs.google.com/presentation/d/1nB9jlYDm6LmH4Xsc_iD4oBFIh5rPa4G31hjWDkptNg8/edit?usp=sharing"> */}
+          Digital Menu for Takeout Restaurant [PDF]
           <Image
             priority
             src="/projects/digital menu thumbnail.png"
@@ -50,8 +51,8 @@ export default function Socials() {
 
       <p className="my-3">
         Project 3:{" "}
-        <a target='_blank'  href="https://docs.google.com/presentation/d/1jun99PQj6IBtmOxEVXezb8-NoQkLnj5Of5DU094z-Gw/edit?usp=sharing">
-          Job Portal for First-gen Immigrants
+        <a target="_blank" href="/projects/case-studies/job-search-tool.pdf">
+          Job Portal for First-gen Immigrants [PDF]
           <Image
             priority
             src="/projects/job search tool thumbnail.png"
@@ -64,6 +65,8 @@ export default function Socials() {
       </p>
       <br></br>
       <hr></hr>
+      <br></br>
+      <a href="https://www.behance.net/patilakshay/projects" target="_blank">View all projects on Behance.net</a>
     </Layout>
   );
 }

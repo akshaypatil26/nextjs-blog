@@ -18,7 +18,7 @@ export default function Intropage() {
             target="_blank"
             href="https://coursera.org/verify/professional-cert/SV5N2C528EFJ"
           >
-            Google's UX Design Professional Certification
+            Google's UX Design Specialization Certification
           </a>{" "}
           on Coursera, while showcasing my acquired skills and insights in my UX
           portfolio. Concurrently, I've been deepening my expertise in React JS,
@@ -32,13 +32,14 @@ export default function Intropage() {
 
       <section className="actionlinks my-7">
         {[
-          ["Behance Profile", "https://www.behance.net/patilakshay", "_blank"],
+          [
+            "View Resume",
+            "projects/resume/Akshay Patil UXD resume.pdf",
+            "_blank",
+          ],
           ["View UX Portfolio", "/uxportfolio", ""],
-          // [
-          //   "View Resume",
-          //   "https://drive.google.com/file/d/1HSeL-UOlXyU0LlAJNdWnQvY15DukeRSg/view?usp=sharing",
-          // ],
-          ["Request Resume", "mailto:akshaypatil26@duck.com", "_blank"],
+          ["Behance Profile", "https://www.behance.net/patilakshay", "_blank"],
+          // ["Request Resume", "mailto:akshaypatil26@duck.com", "_blank"],
         ].map(([title, url, targey]) => (
           <a target={targey} key={title} href={url} className="mx-1">
             {title} <br />
@@ -47,10 +48,11 @@ export default function Intropage() {
       </section>
       <section className="sociallinks my-7">
         {[
-          ["Github", "https://github.com/akshaypatil26"],
+          ["Behance", "https://www.behance.net/patilakshay"],
           ["LinkedIn", "https://www.linkedin.com/in/akshaysanjaypatil/"],
-          ["Twitter", "https://twitter.com/foodjunkieguy"],
+          ["Github", "https://github.com/akshaypatil26"],
           ["Instagram", "https://www.instagram.com/foodjunkieguy/"],
+          ["X.com", "https://twitter.com/foodjunkieguy"],
           ["Email", "mailto:akshaypatil26@duck.com"],
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],

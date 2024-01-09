@@ -8,7 +8,7 @@ export default function Intropage() {
           <p>UX Designer, Full Stack developer</p>
         </div> */}
         <p className="text-justify">
-          My name is Akshay, and I am a UX designer and front-end engineer. I
+          My name is Akshay, and I am a UX Designer and Front End Engineer. I
           graduated from the New Jersey Institute of Technology with an M.S. in
           Computer Science. Since then, I have been working as a full-stack
           developer, leveraging a range of web and mobile technologies.
@@ -34,7 +34,7 @@ export default function Intropage() {
         {[
           [
             "View Resume",
-            "projects/resume/Akshay Patil UXD resume.pdf",
+            "projects/resume/akshay-s-patil-design-resume-2024.pdf",
             "_blank",
           ],
           ["View UX Portfolio", "/uxportfolio", ""],

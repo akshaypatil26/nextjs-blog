@@ -34,7 +34,7 @@ export default function Intropage() {
         {[
           [
             "View Resume",
-            "projects/resume/akshay-s-patil-design-resume-2024.pdf",
+            "projects/resume/akshay-patil-product-designer-resume-2024.pdf",
             "_blank",
           ],
           ["View UX Portfolio", "/uxportfolio", ""],
@@ -48,12 +48,12 @@ export default function Intropage() {
       </section>
       <section className="sociallinks my-7">
         {[
+          ["Email", "mailto:akshaypatil26@duck.com"],
           ["Behance", "https://www.behance.net/patilakshay"],
           ["LinkedIn", "https://www.linkedin.com/in/akshaysanjaypatil/"],
           ["Github", "https://github.com/akshaypatil26"],
           ["Instagram", "https://www.instagram.com/foodjunkieguy/"],
           ["X.com", "https://twitter.com/foodjunkieguy"],
-          ["Email", "mailto:akshaypatil26@duck.com"],
           // ["UX designs", "/uxdesigns"],
           // ["Experience", "/experience"],
         ].map(([title, url]) => (

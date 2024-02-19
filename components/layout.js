@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
             <h1 className="intro-heading">{name}</h1>
 
             <h4 className="intro-subheading">
-              UX Designer, Front End Engineer
+              Product Designer, Front End Developer
             </h4>
           </>
         ) : (

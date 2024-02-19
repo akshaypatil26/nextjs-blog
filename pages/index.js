@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
         <Intro />
         <Actionlinks />
         <Sociallinks />
-        <hr></hr>
+        <hr className="my-20"></hr>
 
         <section className="my-10">
           <Portfolioprojects />

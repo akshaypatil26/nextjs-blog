@@ -1,21 +1,18 @@
+import Link from "next/link";
 import styles from "./navbar.module.css";
 export default function Navbar() {
   return (
     <>
       <div className={styles.navbar}>
-        {[
-          ["Home", "/"],
-          ["UX Portfolio", "/uxportfolio"],
-          // ["Logs", "/logs"],
-          // ["UX designs", "/uxdesigns"],
-          // ["Experience", "/experience"],
-        ].map(([title, url]) => (
-          <a key={title} href={url} className="px-3 hover:text-slate-400">
-            {title}
-          </a>
-        ))}
+        <div className="mycontainer grid grid-cols-4">
+          <Link target="" href="/">
+            Home
+          </Link>
+          <Link target="" href="/uxportfolio">
+            UX Portfolio
+          </Link>
+        </div>
       </div>
-
       {/* <div className={styles.navbar}>
         <li>
           <a href="/">Home</a>

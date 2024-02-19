@@ -38,7 +38,7 @@ img {
 }
 
 .sociallinks {
-  font-size: 0.9rem;
+  max-width: 400px;
   display: flex;
   justify-content: space-around;
 }
@@ -67,12 +67,12 @@ img {
 
 .intro-subheading {
   margin: 0;
-  color: #A6A5AA;
+  color: #a6a5aa;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.social-link-icon{
+.social-link-icon {
   max-width: 16px;
 }
 
@@ -80,4 +80,47 @@ img {
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 0.3rem 0;
+}
+
+.enlarge-on-hover img {
+  transform: scale(1); /* Initial size */
+  transition: transform 0.3s ease;
+}
+
+.enlarge-on-hover:hover img {
+  transform: scale(1.2); /* Enlarge the image by 20% on hover */
+}
+
+/*rounded button*/
+.rounded-button {
+  display: inline-block;
+  width: 200px;
+  padding: 5px 20px;
+  font-size: 16px;
+  /* font-weight: bold; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px; /* Rounded corners */
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+  outline: none;
+}
+
+.rounded-button:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
+}
+
+.action-button {
+  background-color: #ef233c;
+  color: #ffffff;
+  border: #ef233c 1px solid;
+}
+
+.secondary-button {
+  background-color: ffffff;
+  color: #ef233c;
+  border: #ef233c 1px solid;
 }

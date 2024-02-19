@@ -4,11 +4,11 @@ export default function Navbar() {
   return (
     <>
       <div className={styles.navbar}>
-        <div className="mycontainer grid grid-cols-4">
-          <Link target="" href="/">
+        <div className="mycontainer">
+          <Link target="" href="/" className="mr-10">
             Home
           </Link>
-          <Link target="" href="/uxportfolio">
+          <Link target="" href="/uxportfolio" className="mr-5">
             UX Portfolio
           </Link>
         </div>

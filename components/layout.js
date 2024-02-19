@@ -39,9 +39,9 @@ export default function Layout({ children, home }) {
               width={144}
               alt=""
             />
-            <h1 className="intro-heading">{name}</h1>
+            <h1 className="myfont">{name}</h1>
 
-            <h4 className="intro-subheading">
+            <h4 className="myfont2">
               Product Designer, Front End Developer
             </h4>
           </>

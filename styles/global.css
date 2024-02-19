@@ -6,11 +6,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  color: #2b2d42;
+  /* color: #282828; */
+  color: gray;
+  background-color: #fbfbf2;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 a {
-  color: #ef233c;
+  color: #f36969;
   text-decoration: none;
 }
 
@@ -114,13 +115,31 @@ img {
 }
 
 .action-button {
-  background-color: #ef233c;
+  background-color: #f36969;
   color: #ffffff;
-  border: #ef233c 1px solid;
+  border: #f36969 1px solid;
 }
 
 .secondary-button {
   background-color: ffffff;
-  color: #ef233c;
-  border: #ef233c 1px solid;
+  color: #f36969;
+  border: #f36969 1px solid;
+}
+
+.myfont {
+  margin: 0;
+  color: inherit;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #f36969;
+}
+
+.myfont2 {
+  margin: 0;
+  color: inherit;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: gray;
 }

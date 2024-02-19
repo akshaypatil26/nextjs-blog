@@ -27,7 +27,7 @@ export default function Sociallinks() {
           >
             <img
               title="email"
-              width="36px"
+              width="32px"
               src="images/social/email.png"
               alt="email Icon"
             ></img>
@@ -41,8 +41,8 @@ export default function Sociallinks() {
           >
             <img
               title="behance"
-              width="36px"
-              src="images/social/behance.svg"
+              width="32px"
+              src="images/social/behance.png"
               alt="Behance Icon"
             ></img>
           </a>
@@ -55,8 +55,8 @@ export default function Sociallinks() {
             className="mx-1 enlarge-on-hover"
           >
             <img
-              title="behance"
-              width="36px"
+              title="linkedin"
+              width="32px"
               src="images/social/linkedin.png"
               alt="linkedin Icon"
             ></img>
@@ -71,8 +71,8 @@ export default function Sociallinks() {
           >
             <img
               title="github"
-              width="36px"
-              src="images/social/github.svg"
+              width="32px"
+              src="images/social/github.png"
               alt="github Icon"
             ></img>
           </a>
@@ -86,7 +86,7 @@ export default function Sociallinks() {
           >
             <img
               title="instagram"
-              width="36px"
+              width="32px"
               src="images/social/instagram.png"
               alt="instagram Icon"
             ></img>
@@ -101,7 +101,7 @@ export default function Sociallinks() {
           >
             <img
               title="twitter"
-              width="36px"
+              width="32px"
               src="images/social/twitter.png"
               alt="twitter Icon"
             ></img>

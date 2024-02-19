@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Portfolioprojects() {
     return (
       <>
-        <h1 className={`${utilStyles.headingMd}`}>UX Projects</h1>
-        <hr></hr>
+        <h1 className="headingMd">Selected Projects</h1>
+        {/* <hr></hr> */}
         <p className="my-3">
           {" "}
           {/* <img src={ require('../public/projects/testone.jpg') } /> */}

@@ -6,6 +6,10 @@ import Date from "../components/date";
 import Image from "next/image";
 import { getSortedPostsData } from "../lib/posts";
 import Intropage from "../components/intropage";
+import Intro from "../components/intro";
+import Actionlinks from "../components/actionlinks";
+import Sociallinks from "../components/sociallinks";
+import Portfolioprojects from "../components/portfolioprojects";
 
 const name = "Akshay S. Patil";
 
@@ -36,8 +40,15 @@ export default function Home({ allPostsData }) {
           />
           <h1 className={utilStyles.heading2Xl}>{name}</h1>
         </div> */}
+        <Intro />
+        <Actionlinks />
+        <Sociallinks />
+        <hr></hr>
 
-        <Intropage />
+        <section className="my-10">
+          <Portfolioprojects />
+        </section>
+        {/* <Intropage /> */}
       </div>
     </Layout>
   );

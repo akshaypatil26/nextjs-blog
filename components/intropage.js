@@ -4,9 +4,6 @@ export default function Intropage() {
   return (
     <>
       <section className="my-7">
-        {/* <div>
-          <p>UX Designer, Full Stack developer</p>
-        </div> */}
         <p className="text-justify">
           My name is Akshay, and I am a UX Designer and Front End Engineer. I
           graduated from the New Jersey Institute of Technology with an M.S. in
@@ -34,7 +31,7 @@ export default function Intropage() {
         {[
           [
             "View Resume",
-            "projects/resume/akshay-patil-design-resume.pdf",
+            "projects/resume/akshay-patil-resume-product-designer.pdf",
             "_blank",
           ],
           ["View UX Portfolio", "/uxportfolio", ""],

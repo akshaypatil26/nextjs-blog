@@ -75,3 +75,9 @@ img {
 .social-link-icon{
   max-width: 16px;
 }
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0.3rem 0;
+}

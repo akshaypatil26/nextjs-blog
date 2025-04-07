@@ -58,6 +58,40 @@ export default function Portfolioprojects() {
         </p>
         <br></br>
         <hr></hr>
+
+        <p className="my-3">
+          Project 4:{" "}
+          <a target="_blank" href="/projects/case-studies/store-locator.pdf">
+            Store Locator Redesign [PDF]
+            <Image
+              priority
+              src="/projects/store-locator-thumbnail-1.png"
+              // className={utilStyles.borderCircle}
+              height={300}
+              width={500}
+              alt=""
+            />
+          </a>
+        </p>
+        <br></br>
+        <hr></hr>
+
+        <p className="my-3">
+          Project 5:{" "}
+          <a target="_blank" href="/projects/case-studies/platerate-user-profile.pdf">
+            User Profile for Food Rating App [PDF]
+            <Image
+              priority
+              src="/projects/user-profile-thumbnail.png"
+              // className={utilStyles.borderCircle}
+              height={300}
+              width={500}
+              alt=""
+            />
+          </a>
+        </p>
+        <br></br>
+        <hr></hr>
         <br></br>
         <a href="https://www.behance.net/patilakshay/projects" target="_blank">
           View all projects on Behance.net

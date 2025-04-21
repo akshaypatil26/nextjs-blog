@@ -31,7 +31,7 @@ export default function Intropage() {
         {[
           [
             "View Resume",
-            "projects/resume/akshay-patil-resume-product-designer.pdf",
+            "projects/resume/akshay-patil-portfolio-resume-2025.pdf",
             "_blank",
           ],
           ["View UX Portfolio", "/uxportfolio", ""],

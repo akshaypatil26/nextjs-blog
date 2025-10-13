@@ -28,7 +28,7 @@ export default function Actionlinks() {
           <div className="my-2 flex justify-center">
             <Link
               target="_blank"
-              href="/projects/resume/akshay-patil-resume-product-designer.pdf"
+              href="/projects/resume/akshay-patil-portfolio-resume-2025.pdf"
             >
               <button className="rounded-button secondary-button">
                 View Resume
